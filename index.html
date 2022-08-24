@@ -5,23 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>Scraper</title>
 </head>
 <body>
     <header>
+        <div>
+
+        </div>
        <form>
         <input type="text" id="url">
         <input type="submit" id="submit">
        </form>
     </header>
+
     <main>
         <div class="tabel">
-
+            <table>
+                <tr>
+                    <td>Title</td>
+                    <td id="title"></td>
+                </tr>
+                <tr>
+                    <td>Meta Discription</td>
+                    <td id="description"></td>
+                </tr>
+                <tr>
+                    <td>< h1 ></td>
+                    <td id="h1"></td>
+                </tr>
+                <tr>
+                    <td>< h2 ></td>
+                    <td id="h2"></td>
+                </tr>
+                <tr>
+                    <td>Number of missing alt-attr</td>
+                    <td id="missing"></td>
+                </tr>
+                <tr>
+                    <td>Contains < meta viewport.. /></td>
+                    <td id="contains"></td>
+                </tr>
+            </table>
         </div>
     </main>
     <footer>
 
     </footer>
+
 <script src="java/skraper.js"></script>
 <script src="java/tabel.js"></script>
 </body>
