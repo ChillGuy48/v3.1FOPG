@@ -1,0 +1,27 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "description": "Finds page content of the incoming request",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChillGuy48/v3.1FOPG.git"
+  },
+  "keywords": [
+    "title",
+    "description",
+    "h1"
+  ],
+  "author": "enbeeing",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChillGuy48/v3.1FOPG/issues"
+  },
+  "homepage": "https://github.com/ChillGuy48/v3.1FOPG#readme",
+  "dependencies": {
+    "website-scraper": "^5.2.0"
+  }
+}
