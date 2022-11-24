@@ -1,0 +1,33 @@
+$light:#DDD;
+$dark:#333;
+
+@import "bootstrap.min.css";
+
+
+
+header{
+    height: 100px;
+    
+    img{
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        height: 75px;
+        max-height: 100px;
+    }
+}
+
+.card{
+    max-width: calc((100% / 3) - 0.35rem);
+    img{
+        height: 100px;
+    }
+}
+
+.carousel{
+    div{
+        background-color: rgba($color: #313d3d, $alpha: 0.5);
+        padding: 1rem;
+        border-radius: 5rem;
+    }
+}
